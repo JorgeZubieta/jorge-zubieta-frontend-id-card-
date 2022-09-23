@@ -1,3 +1,9 @@
+main{
+    background: url(https://pincelesymas.com/wp-content/uploads/2020/08/top-ocho-8-herramientas-para-comenzar-en-la-pintura-ahora-en-casa-2020.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card{
     width: 300px;
     height: 500px;
@@ -19,10 +25,12 @@
 
 .face.front {
     background: url(/img/back2\ ok.jpeg);
+    background-size: cover;
 }
 
 .face.back {
     background: url(/img/front4\ ok.jpeg);
+    background-size: cover;
     transform: rotateX(180deg);
 }
 
