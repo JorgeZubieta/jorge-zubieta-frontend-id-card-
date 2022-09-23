@@ -1,0 +1,32 @@
+.card{
+    width: 300px;
+    height: 500px;
+    transform-style: preserve-3d;
+
+    /* aplicamos la transicion de card que gira */
+    will-change: transform; /*optimizamos el efecto y posibls errores*/
+    transition: transform 500ms;
+}
+
+.face {
+    border-radius: 50px;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    backface-visibility: hidden;
+    margin-top: 2rem;
+}
+
+.face.front {
+    background: url(/img/back2\ ok.jpeg);
+}
+
+.face.back {
+    background: url(/img/front4\ ok.jpeg);
+    transform: rotateX(180deg);
+}
+
+.card:hover{
+/* aplicamos el efecto :hover */
+    transform: rotateY(180deg);
+}
