@@ -38,6 +38,17 @@ main{
     transform: rotateX(180deg);
 }
 
+
+/* ------------ queries -------------- */
+
+@media (hover: hover){
+/* target only devices that can hover */
+}
+
+@media (hover: none){
+/* target only devices that don't hover */
+}
+
 .card:hover{
 /* aplicamos el efecto :hover */
     transform: rotateY(180deg);
