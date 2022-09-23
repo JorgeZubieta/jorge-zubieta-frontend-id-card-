@@ -5,13 +5,14 @@ main{
 }
 
 .card{
-    width: 300px;
-    height: 500px;
+    height: 500px; /* alto del card */
     transform-style: preserve-3d;
 
     /* aplicamos la transicion de card que gira */
     will-change: transform; /*optimizamos el efecto y posibls errores*/
     transition: transform 800ms; /* velocidad de trasnsicion */
+
+    padding-top: 1rem; /* agrega pdding al card */
 }
 
 .face {
