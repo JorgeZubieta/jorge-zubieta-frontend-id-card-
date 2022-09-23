@@ -13,6 +13,9 @@ main{
     transition: transform 800ms; /* velocidad de trasnsicion */
 
     padding-top: 1rem; /* agrega pdding al card */
+
+    background: none; /* vacio el background blanco que corresponde l card */
+    border: none; /* elimine el borde */
 }
 
 .face {
