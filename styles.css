@@ -11,7 +11,7 @@ main{
 
     /* aplicamos la transicion de card que gira */
     will-change: transform; /*optimizamos el efecto y posibls errores*/
-    transition: transform 500ms;
+    transition: transform 800ms; /* velocidad de trasnsicion */
 }
 
 .face {
@@ -20,12 +20,12 @@ main{
     height: 500px;
     position: absolute;
     backface-visibility: hidden;
-    margin-top: 2rem;
 }
 
 .face.front {
     background: url(/img/back2\ ok.jpeg);
-    background-size: cover;
+    background-size: 400px;
+    background-repeat: no-repeat;
 }
 
 .face.back {
