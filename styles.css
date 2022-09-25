@@ -59,14 +59,8 @@ main{
 
 /* ------------ queries -------------- */
 
-@media (hover: hover){
-/* target only devices that can hover */
-    .card:hover{
-    /* aplicamos el efecto :hover */
-        transform: rotateY(180deg);
-    }
-}
 
-/* @media (hover: none){
-/* target only devices that don't hover */
-/* } */
+.card.hover{
+    /* aplicamos el efecto :hover */
+    transform: rotateY(180deg);
+}
