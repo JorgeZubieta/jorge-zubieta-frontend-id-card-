@@ -27,8 +27,9 @@ main{
 }
 
 .face.front {
-    background: url(/img/back2\ ok.jpeg);
-    background-size: 400px;
+    background: url(/img/back2-black.jpg);
+    /* background-size: 400px; */
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
