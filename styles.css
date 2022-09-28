@@ -47,7 +47,7 @@ main{
     /* gradiente */
     background: linear-gradient(
         hsl(0 0% 0% / 0),
-        rgb(18, 155, 43) 20%,
+        rgb(155, 18, 123) 20%,
         hsl(0 0% 0% / 1)
     );
 }
